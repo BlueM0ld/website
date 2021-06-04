@@ -1,12 +1,11 @@
 import * as React from "react"
+import { Cube } from "../components/objects/cube"
 
 
 // markup
 const IndexPage = () => {
   return (
-      <div>
-        <p>This is the beginning</p>
-      </div>
+    <Cube/>
   )
 }
 
