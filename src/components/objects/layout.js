@@ -1,13 +1,12 @@
 import React from 'react';
+import NavbarQuery from '../query/navbarquery';
 
 
 function Layout(){
 
-    return (
-        <div>
-            This is the layout
-        </div>
-    )
+        return (
+            <NavbarQuery/>
+        )
 }
 
 export {Layout};

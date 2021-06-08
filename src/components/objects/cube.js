@@ -30,7 +30,6 @@ function Cube(){
         renderer.setPixelRatio(window.devicePixelRatio);
         document.body.appendChild(renderer.domElement)
 
-        // const geometry = new THREE.SphereBufferGeometry(1, 32, 32);
         const geometry = new THREE.BoxGeometry(0.2,0.2,0.2)
 
           let makeInstance = (geom,color, zpos) => {

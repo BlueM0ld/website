@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: "Gurleen Vasir",
+    menubar: [
+      {
+        name: 'Home',
+        link: '/'
+      },
+      {
+        name: 'Projects',
+        link: '/projects'
+      }
+    ]
   },
   plugins: [
     "gatsby-plugin-sass",

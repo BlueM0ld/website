@@ -1,11 +1,11 @@
 import * as React from "react"
-import { Cube } from "../components/objects/cube"
+import { Layout } from "../components/objects/layout"
 
 
 // markup
 const IndexPage = () => {
   return (
-    <Cube/>
+    <Layout/>
   )
 }
 

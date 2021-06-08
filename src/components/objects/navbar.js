@@ -1,9 +1,26 @@
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 
-function Navbar(){
-    <div>
-        <p>this is the navbar</p>
-    </div>
+  const Navbar = ({ links }) => {
+    return(
+    <Router>
+      <div>
+        <nav>
+          <ul>
+            {links.map(link => (
+                    <li>
+                    <Link style={{ color: `black` }} to={link.link}> {link.name} </Link>
+                    </li>
+                ))}
+          </ul>
+        </nav>
+      </div>
+    </Router>
+    )
 }
+
 
 export {Navbar}
